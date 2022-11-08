@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <title>Reset Password</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  </head>
+  <body>
+      <div class="container"> 
+            <div class="login-box">
+            <div class ="row">
+              <div class="col-md-6 login-left"> 
+                  <h1>Login here</h1><br>
+                  <form action="reset.php" method="post">
+                         <div class="form-group"> 
+                            <label>Username </label><br>s
+                            <input type="text" name="loginUserName" class="form-control" required><br>
+                          </div>
+                          
+                          <div class="form-group">                
+                            <label>Current Password </label><br>
+                            <input type="password" name="currentPass" class="form-control"  required><br>
+                          </div>
+
+                          <div class="form-group">
+                            <label>New Password </label><br>
+                            <input type="password" name="newPass" class="form-control" required><br>
+                          </div>
+
+                          <div class="form-group">
+                            <label>Retype new Password </label><br>
+                            <input type="password" name="renewPass" class="form-control" required><br>
+                          </div>
+
+                        <input type="submit" name="login" value="Login" class="btn btn-primary" /> <br>
+                  </form>
+              </div>
+          </div>
+          </div>
+    </div>
+  </body>
+</html>
